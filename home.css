@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    margin: 5px 0px 0 0;
+    padding: 20px;
+    flex-grow: 1;
+     background-color: #2952a3;
+}
+
+.header-container>div {
+    align-content: stretch;
+    flex-grow: 8;
+    text-align: center;
+}
+
+.item-class{display: flex;flex-wrap:wrap;justify-content: center;}
+
+.shop-items{
+     vertical-align: top;
+    display: inline-block;
+font-family: Impact;
+    text-align: center;
+    margin: 2em 3em 2em 3em;
+    width:20em;
+}
+a{text-decoration: none;}
+.caption {
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .btn-menu {
+        display: block;
+    }
+}

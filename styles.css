@@ -1,0 +1,14 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.normal-font {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    text-decoration: none;
+}
